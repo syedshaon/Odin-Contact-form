@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="./styles.css" />
+    <title>Odin Contact Form</title>
+  </head>
+  <body>
+    <div class="container">
+      <div class="left">
+        <div class="logo-area">
+          <img src="./odin-lined.png" alt="odin-logo" />
+          <span class="title">ODIN</span>
+        </div>
+        <div class="img-credit">
+          <small
+            >Photo by
+            <a href="https://unsplash.com/@haliewestphoto">Halie West</a>
+          </small>
+        </div>
+      </div>
+      <div class="right">
+        <div class="right-content">
+          <div class="heading">
+            <p>
+              This is not a real online service! You know you need something
+              like this in your life to help you realize your deepest dreams.
+              Sign up <em>now</em> to get started.
+            </p>
+            <p>You <em>know</em> you want to.</p>
+          </div>
+          <div class="form">
+            <form action="#">
+              <div class="form-top">
+                <h3>Let's do this!</h3>
+                <div class="input-rows">
+                  <div class="form-row">
+                    <label for="fName" class="label"> First Name</label>
+                    <input type="text" name="fName" id="fName" />
+                  </div>
+                  <div class="form-row">
+                    <label for="lName" class="label">Last name </label>
+                    <input type="text" name="lName" id="lName" />
+                  </div>
+                  <div class="form-row">
+                    <label for="email" class="label"> EMAIL</label>
+                    <input type="email" name="email" id="email" />
+                  </div>
+                  <div class="form-row">
+                    <label for="phone" class="label">Phone Number </label>
+                    <input type="tel" name="phone" id="phone" />
+                  </div>
+                  <div class="form-row">
+                    <label for="pass1" class="label">Password </label>
+                    <input type="password" name="pass1" id="pass1" />
+                    <small id="pass1E">* Passwords do not match</small>
+                  </div>
+                  <div class="form-row">
+                    <label for="pass2" class="label">Confirm Password </label>
+                    <input type="password" name="pass2" id="pass2" />
+                    <small id="pass2E">* Passwords do not match</small>
+                  </div>
+                </div>
+              </div>
+              <!-- form top ends -->
+              <div class="input-button">
+                <button type="submit">Create Account</button>
+              </div>
+            </form>
+
+            <p class="login">Already have an account? <a href="">Log in</a></p>
+          </div>
+        </div>
+      </div>
+    </div>
+    <script src="./script.js"></script>
+  </body>
+</html>
